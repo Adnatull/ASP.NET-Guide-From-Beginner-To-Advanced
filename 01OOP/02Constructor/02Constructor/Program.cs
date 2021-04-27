@@ -7,6 +7,8 @@ namespace _02Constructor
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Sum X = new Sum(10,20);
+            Console.WriteLine(X.x);
         }
     }
 }
